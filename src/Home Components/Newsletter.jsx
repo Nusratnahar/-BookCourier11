@@ -2,7 +2,7 @@ export default function Newsletter() {
   return (
     <section
       className="relative overflow-hidden py-20 px-10
-                 bg-gradient-to-br from-[#f6f1eb] to-[#e7ddd2]
+                 bg-linear-to-br from-[#f6f1eb] to-[#e7ddd2]
                  dark:from-[#14110f] dark:to-[#1d1814]
                  transition-all duration-500"
     >

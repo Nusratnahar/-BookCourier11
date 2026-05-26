@@ -8,16 +8,12 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <img
-                src={Logo}
-                alt="BookCourier Logo"
-                className="w-8 h-8"
-              />
-              <span className="font-bold text-xl">
-                Book<span className="text-primary">Courier</span>
-              </span>
-            </Link>
+        <Link to="/" className="flex items-center gap-2 group">
+                    <img src={Logo} alt="BookCourier Logo" className="w-8 h-8" />
+                    <span className="font-bold text-xl text-black dark:text-[#f5e8dc]">
+                      Book<span className="text-[#5a3e2b]">Courier</span>
+                    </span>
+                  </Link>
             <p className="text-secondary-foreground/70">
               Bringing the library to your doorstep.
             </p>

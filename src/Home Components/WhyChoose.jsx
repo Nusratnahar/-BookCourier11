@@ -36,7 +36,7 @@ const features = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-[#f6f1eb] to-[#ebe1d6]
+    <section className="py-20 bg-linear-to-br from-[#f6f1eb] to-[#ebe1d6]
                         dark:from-[#14110f] dark:to-[#1d1814] transition-all duration-500">
 
       <div className="max-w-7xl mx-auto px-12">
@@ -109,7 +109,7 @@ const WhyChooseUs = () => {
               </p>
 
               <div
-                className="w-0 group-hover:w-full h-[2px]
+                className="w-0 group-hover:w-full h-0.5
                            bg-[#5a3e2b]
                            dark:bg-[#c8a27a]
                            mt-5 transition-all duration-500 rounded-full"
